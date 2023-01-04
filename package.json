@@ -4,7 +4,8 @@
   "description": "Jest tests in typescript",
   "main": "index.js",
   "scripts": {
-    "build:backend": "tsc"
+    "test": "jest",
+    "test:silent": "jest --watchAll --silent --noStackTrace"
   },
   "repository": {
     "type": "git",
